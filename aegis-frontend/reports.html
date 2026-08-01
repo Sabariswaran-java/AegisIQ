@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reports</title>
+
+    <link rel="stylesheet" href="css/reports.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <h2>AEGISIQ</h2>
+
+    <ul>
+
+        <li><a href="dashboard.html">🏠 Dashboard</a></li>
+        <li><a href="assets.html">📦 Asset Management</a></li>
+        <li><a href="monitoring.html">📈 Monitoring</a></li>
+        <li><a href="alerts.html">🚨 Alerts</a></li>
+        <li><a href="reports.html">📄 Reports</a></li>
+
+        <hr>
+
+        <li><a href="dependency.html">🕸 Dependency Graph</a></li>
+        <li><a href="decision.html">🧠 Decision Twin</a></li>
+        <li><a href="scenario.html">🔄 What-If</a></li>
+        <li><a href="explain.html">💡 Explain</a></li>
+        <li><a href="incident.html">📚 Incident</a></li>
+        <li><a href="optimizer.html">🚀 Optimizer</a></li>
+
+    </ul>
+
+</div>
+
+<div class="main-content">
+
+<h1>System Reports</h1>
+
+<div class="report-cards">
+
+<div class="card">
+
+<h3>Total Assets</h3>
+
+<h2 id="totalAssets">0</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Active Assets</h3>
+
+<h2 id="activeAssets">0</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Critical Alerts</h3>
+
+<h2 id="criticalAssets">0</h2>
+
+</div>
+
+<div class="card">
+
+<h3>System Health</h3>
+
+<h2 id="systemHealth">GOOD</h2>
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<button onclick="window.print()">
+
+Print Report
+
+</button>
+
+<button>
+
+Export PDF
+
+</button>
+
+<button>
+
+Export CSV
+
+</button>
+
+</div>
+
+</div>
+
+<script src="js/reports.js"></script>
+
+</body>
+
+</html>

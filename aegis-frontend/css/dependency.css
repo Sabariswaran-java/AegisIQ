@@ -1,0 +1,72 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+display:flex;
+background:#0d1117;
+color:white;
+}
+
+.sidebar{
+width:250px;
+background:#161b22;
+padding:20px;
+min-height:100vh;
+}
+
+.sidebar h2{
+color:#58a6ff;
+text-align:center;
+margin-bottom:30px;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar li{
+margin:15px 0;
+}
+
+.sidebar a{
+color:white;
+text-decoration:none;
+display:block;
+padding:10px;
+border-radius:8px;
+}
+
+.sidebar a:hover{
+background:#238636;
+}
+
+.main-content{
+flex:1;
+padding:30px;
+}
+
+.card{
+margin-top:20px;
+background:#161b22;
+padding:25px;
+border-radius:10px;
+}
+
+.card h2{
+color:#58a6ff;
+margin-bottom:20px;
+}
+
+.card ul{
+margin-left:20px;
+margin-top:20px;
+}
+
+.card li{
+margin-bottom:12px;
+font-size:17px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AegisIQ Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h2>AEGISIQ</h2>
+
+        <ul>
+
+            <li><a href="dashboard.html">🏠 Dashboard</a></li>
+
+            <li><a href="assets.html">📦 Asset Management</a></li>
+
+            <li><a href="monitoring.html">📈 Live Monitoring</a></li>
+
+            <li><a href="alerts.html">🚨 Alerts</a></li>
+
+            <li><a href="reports.html">📄 Reports</a></li>
+
+            <hr>
+
+            <li><a href="dependency.html">🕸 Dependency Graph</a></li>
+
+            <li><a href="decision.html">🧠 Decision Twin</a></li>
+
+            <li><a href="scenario.html">🔄 What-If Scenario</a></li>
+
+            <li><a href="explain.html">💡 Explainable AI</a></li>
+
+            <li><a href="incident.html">📚 Incident Memory</a></li>
+
+            <li><a href="optimizer.html">🚀 Deployment Optimizer</a></li>
+
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <div class="header">
+
+            <h1>Infrastructure Decision Intelligence Dashboard</h1>
+
+        </div>
+
+        <!-- Cards -->
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Total Assets</h3>
+                <h2 id="totalAssets">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Active Assets</h3>
+                <h2 id="activeAssets">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>CPU Average</h3>
+                <h2 id="cpuAverage">0%</h2>
+            </div>
+
+            <div class="card">
+                <h3>Memory Average</h3>
+                <h2 id="memoryAverage">0%</h2>
+            </div>
+
+            <div class="card">
+                <h3>Warning Assets</h3>
+                <h2 id="warningAssets">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Critical Assets</h3>
+                <h2 id="criticalAssets">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>System Health</h3>
+                <h2 id="systemHealth">GOOD</h2>
+            </div>
+
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="recent-activity">
+
+            <h2>Recent Activity</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Asset</th>
+                        <th>Status</th>
+                        <th>CPU</th>
+                        <th>Memory</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="activityTable">
+
+                    <tr>
+
+                        <td colspan="4" style="text-align:center;">
+                            Loading...
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    
+    <script src="data.js"></script>
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>
