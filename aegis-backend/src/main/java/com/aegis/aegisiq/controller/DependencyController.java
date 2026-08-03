@@ -21,29 +21,20 @@ public class DependencyController {
         this.dependencyService = dependencyService;
     }
 
-
-
-    
     @GetMapping("/{assetId}")
     public List<Dependency> getDependencies(
             @PathVariable Long assetId) {
 
         return dependencyService.getDependencies(assetId);
     }
-
-
-
- 
+    
     @PostMapping
     public Dependency addDependency(
             @RequestBody Dependency dependency) {
 
         return dependencyService.saveDependency(dependency);
     }
-
-
-
-    
+ 
     @DeleteMapping("/{id}")
     public String deleteDependency(
             @PathVariable Long id) {
