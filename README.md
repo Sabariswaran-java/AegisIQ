@@ -366,28 +366,6 @@ Main Tables
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots here.
-
-```text
-screenshots/
-
-dashboard.png
-login.png
-assets.png
-monitoring.png
-alerts.png
-```
-
----
-
-# 🎥 Demo Video
-
-Add the project demo video link here.
-
----
-
 # 📊 Expected Outcomes
 
 Organizations using AegisIQ can achieve:
